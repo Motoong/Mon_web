@@ -1,4 +1,11 @@
-.highlight{
-    border: solid;
-    border-color: blue;
+h2{
+color:red;
 }
+.highlight{
+border:solid;
+}
+#profile{
+border:solid;
+border-color: blue;
+ }
+   
