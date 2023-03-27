@@ -5,73 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>웹 화면 구현</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <body>
-    <div>    
-        <img src="assets/insta_logo.png" alt="">
-        <img src="assets/insta_logo.png" alt="">
-        <input type="search" value="검색"/>
+  <header>
+    <div class="logo">
+        <img src="assets/insta_logo.png"/>
     </div>
-    <div>    
-        <img src="assets/profile.avif" alt="" width="100" height="100">
-        <div>
-            <h2>half_bottle</h2>
-            <button>프로필편집dddd</button>    
-        </div>
+    <div class="search">
+      <input type="text" placeholder="Search">
     </div>
-    <div>
-        <p>
-            <strong>
-                이다형 (Dahyung Lee)
-            </strong><br/>
-            작가
-        </p>
-        <p>
-            <a href="https://github.com/Motoong/monday_web">
-                https://github.com/Motoong/monday_web</a>
-          
-        </p>
+    <div class="icons">
+        <i class="fas fa-home"></i>
+        <i class="far fa-paper-plane"></i>
+        <i class="far fa-compass"></i>
+        <i class="far fa-heart"></i>
     </div>
-    <div class="highlight">
-        <div>
-            <div>
-                <img src="assets/cat1.jpg" alt="" width="150" height="100">
+  </header>
+  <body>
+    <div class="profile">
+        <img class="profile-pic" src="assets/cat2.jpg">
+            <div class="profile-info">
+                <div class="profile-name">
+                <h2>이다형</h2>
+                <button class="follow-btn">팔로우</button>
+                </div>
+                <div class="profile-stats">
+                <p><strong>100</strong> posts</p>
+                <p><strong>1,000</strong> followers</p>
+                <p><strong>500</strong> following</p>
+                </div>
+                <div class="profile-bio">
+                <p>안녕하세요. </p>
+                </div>
             </div>
-            <div>
-                😃
-            </div>           
+            
+    </div>
+    <div class="gallery">
+        <div class="photo">
+          <img src="https://via.placeholder.com/300x300.png?text=Photo1">
         </div>
-        <div>
-            <div>
-                <img src="assets/cat2.jpg" alt="" width="150" height="100">
-            </div>
-            <div>
-                😂
-            </div>           
+        <div class="photo">
+          <img src="https://via.placeholder.com/300x300.png?text=Photo2">
         </div>
-    </div>
-    <div>
-        <p>
-            게시물<br/>
-            follower<br/>
-            팔로우<br/>
-            133 <br>
-            408 <br>
-            189
-        </p>
-    </div>
-    <div>icon place</div>
-    <div>
-        <img src="assets/thumbnails/1.jpg" width="32%">
-        <img src="assets/thumbnails/2.jpg" width="32%">
-        <img src="assets/thumbnails/3.jpg" width="32%">
-        <img src="assets/thumbnails/4.jpg" width="32%">
-        <img src="assets/thumbnails/5.jpg" width="32%">
-        <img src="assets/thumbnails/6.jpg" width="32%">
-        <img src="assets/thumbnails/7.jpg" width="32%">
-        <img src="assets/thumbnails/8.jpg" width="32%">
-        <img src="assets/thumbnails/9.jpg" width="32%">
-    </div>
+        <div class="photo">
+          <img src="https://via.placeholder.com/300x300.png?text=Photo3">
+        </div>
+        <div class="photo">
+            <img src="https://via.placeholder.com/300x300.png?text=Photo4">
+        </div>
+        <div class="photo">
+            <img src="https://via.placeholder.com/300x300.png?text=Photo5">
+          </div>
+          <div class="photo">
+            <img src="https://via.placeholder.com/300x300.png?text=Photo6">
+          </div>
+      </div>
+    </body>
+
 </body>
 </html>
