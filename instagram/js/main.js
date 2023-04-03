@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
     btn.addEventListener("mouseover", overF);
     btn.addEventListener("mouseout", outF);
     btn.addEventListener("click", clickF);
-
+    
     cog.addEventListener("mouseover",cogRoll );
     cog.addEventListener("mouseout",cogRollStop );
 });
