@@ -172,5 +172,13 @@ i {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
   }
   
+  #mybtn{
+    background-color: #fff;
+    color:#a00;
+    font-size:2vw;
+  }
   
+  input:focus::placeholder {
+    visibility: hidden;
+  }
   
