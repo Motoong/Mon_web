@@ -7,7 +7,13 @@ body{
 .thumbnail_grid {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
 }
+
+.thumbnail_grid + .thumbnail_grid {
+    margin-top: 10px;
+  }
 
 .thumbnail {
     width: 100%;
@@ -40,12 +46,13 @@ body{
 #profile_pic {
     width: 15vw;
     height: 15vw;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .highlight_pic {
     width: 10vw;
     height: 10vw;
-
     margin-left: auto;
     margin-right: auto;
 }
@@ -67,7 +74,6 @@ body{
 #profile_info{
     display:grid;
     grid-template-rows: 1fr 1fr;
-
     height: 15vw;
 }
 
